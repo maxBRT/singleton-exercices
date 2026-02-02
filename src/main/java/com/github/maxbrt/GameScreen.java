@@ -1,10 +1,9 @@
 package com.github.maxbrt;
 
 public class GameScreen {
-    public ScoreCounter scoreCounter;
+    public ScoreCounter scoreCounter = new ScoreCounter();
 
-    public GameScreen(ScoreCounter scoreCounter) {
-        this.scoreCounter = scoreCounter;
+    public GameScreen() {
     }
 
     public void GameLoop() {
